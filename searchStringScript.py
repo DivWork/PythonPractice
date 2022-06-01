@@ -16,7 +16,7 @@ def getListOfFiles(dirName):
 
 
 def main():
-    paths = getListOfFiles("/Users/divyesh.pal/Documents/open-backend-v2/")
+    paths = getListOfFiles("/Users/divyesh.pal/Documents/")
     string = 'Redis::'
     for path in paths:
         for file in glob.glob(path):
